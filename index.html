@@ -397,25 +397,47 @@
     </footer>
     <div class="modal_window is-hidden" data-modal>
       <div class="modal_cla">
-        <h3 class="headsecti">Leave your contacts and we will call you back</h3>
-        <div class="modul-div">
-          <label class="modul-label">dasds <input class="modul-input" /></label>
+        <form class="form-modul">
+          <h3 class="headsecti">
+            Leave your contacts and we will call you back
+          </h3>
+          <label class="modul-label">Name</label>
+          <div class="modul-div">
+            <input class="modul-input" type="text" name="user-name" />
+            <svg class="modul-svg" width="18px" height="18px">
+              <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+            </svg>
+          </div>
+          <label class="modul-label">Phone</label>
+          <div class="modul-div">
+            <input class="modul-input" type="text" name="user-name" />
+            <svg class="modul-svg" width="18px" height="18px">
+              <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+            </svg>
+          </div>
+          <label class="modul-label">Email</label>
+          <div class="modul-div">
+            <input class="modul-input" type="text" name="user-name" />
+            <svg class="modul-svg" width="18px" height="18px">
+              <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+            </svg>
+          </div>
+          <textarea></textarea>
 
-          <label class="modul-label"
-            >dasds
-            <input class="modul-input" />
-          </label>
+          <p class="Modul-comment">
+            I accept the terms and conditions of the
+            <a class="modul-policy" href=""> Privacy Policy</a>
+          </p>
 
-          <label class="modul-label">dasds <input class="modul-input" /></label>
-        </div>
-        <textarea></textarea>
-
-        <button type="button" class="first_button" data-modal-open>Send</button>
-        <button class="but_modal" type="button" data-modal-close>
-          <svg class="svg_icons_footer" width="8" height="8">
-            <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
-          </svg>
-        </button>
+          <button type="button" class="first_button" data-modal-open>
+            Send
+          </button>
+          <button class="but_modal" type="button" data-modal-close>
+            <svg class="svg_icons_footer" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
