@@ -401,30 +401,55 @@
           <h3 class="headsecti">
             Leave your contacts and we will call you back
           </h3>
-          <label class="modul-label">Name</label>
-          <div class="modul-div">
-            <input class="modul-input" type="text" name="user-name" />
-            <svg class="modul-svg" width="18px" height="18px">
-              <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
-            </svg>
+          <div class="modal-box">
+            <label class="modul-label" for="name-mod">Name</label>
+            <div class="modul-div">
+              <input
+                class="modul-input"
+                type="text"
+                required
+                name="user-name"
+                id="name-mod"
+              />
+              <svg class="modul-svg" width="18px" height="18px">
+                <use
+                  class="modul-use-svg"
+                  href="./images/icons.svg#icon-person-black-18dp-1"
+                ></use>
+              </svg>
+            </div>
           </div>
-          <label class="modul-label">Phone</label>
-          <div class="modul-div">
-            <input class="modul-input" type="text" name="user-name" />
-            <svg class="modul-svg" width="18px" height="18px">
-              <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
-            </svg>
+          <div class="modal-box">
+            <label class="modul-label">Phone</label>
+            <div class="modul-div">
+              <input
+                class="modul-input"
+                type="tel"
+                required
+                name="phone-nomber"
+              />
+              <svg class="modul-svg" width="18px" height="18px">
+                <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+              </svg>
+            </div>
           </div>
-          <label class="modul-label">Email</label>
-          <div class="modul-div">
-            <input class="modul-input" type="text" name="user-name" />
-            <svg class="modul-svg" width="18px" height="18px">
-              <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
-            </svg>
+          <div class="modal-box">
+            <label class="modul-label">Email</label>
+            <div class="modul-div">
+              <input
+                class="modul-input"
+                type="email"
+                required
+                name="email-user"
+              />
+              <svg class="modul-svg" width="18px" height="18px">
+                <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+              </svg>
+            </div>
           </div>
           <textarea></textarea>
-
           <p class="Modul-comment">
+            <input type="checkbox" id="check" />
             I accept the terms and conditions of the
             <a class="modul-policy" href=""> Privacy Policy</a>
           </p>
