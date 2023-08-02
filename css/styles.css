@@ -638,11 +638,16 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal .headsecti {
+.foot-paragph {
+  font-weight: 500;
   font-size: 16px;
   text-align: center;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secti-two);
   margin-bottom: 16px;
 }
+
 .but_modal {
   position: absolute;
   top: 24px;
