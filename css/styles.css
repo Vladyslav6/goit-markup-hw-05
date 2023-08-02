@@ -672,7 +672,11 @@ img {
   font-weight: 400;
   line-height: 16px;
   letter-spacing: 0.48px;
+  margin-bottom: 24px;
 }
 .modul-policy {
   color: #404bbf;
+}
+.modal-check {
+
 }
