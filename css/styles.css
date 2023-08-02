@@ -448,12 +448,8 @@ img {
 }
 
 .footer-svg {
-  position: absolute;
   fill: #ffffff;
   margin-left: 16px;
-  right: 24px;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
 .footer-input {
