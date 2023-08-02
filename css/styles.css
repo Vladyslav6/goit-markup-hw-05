@@ -686,6 +686,7 @@ img {
 
 .modul-label {
   display: inline-block;
+  color: var(--navyblue-modal);
 }
 .modul-input {
   width: 100%;
@@ -734,9 +735,11 @@ img {
   font-weight: 400;
   line-height: 16px;
   letter-spacing: 0.48px;
+  margin-bottom: 24px;
 }
 .modul-policy {
   color: #404bbf;
 }
-
 /* close-modul-fon */
+.modal-check {
+}
