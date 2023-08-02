@@ -397,6 +397,7 @@ img {
   margin-right: 120px;
 }
 .foot_social {
+  margin-right: 80px;
 }
 .foot_svg {
   display: flex;
@@ -441,6 +442,66 @@ img {
   letter-spacing: 0.02em;
 }
 
+.footer-div {
+  display: flex;
+  position: relative;
+}
+.footer-svg {
+  position: absolute;
+  fill: #ffffff;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.footer-input {
+  width: 264px;
+  height: 40px;
+  margin-right: 24px;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: #2e2f42;
+}
+
+.footer-input::placeholder {
+  color: #ffffff;
+}
+
+.footer-button {
+  display: block;
+  /* margin: 0 auto; */
+  background-color: #4d5ae5;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #ffffff;
+  cursor: pointer;
+  /* min-width: 165px; */
+  width: 165px;
+  padding: 8px 24px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+/* .footer-button {
+  background-color: #4d5ae5;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  width: ;
+} */
+/* \
+\
+\
+ Clouse-footer */
 /* portfolio */
 /* open_header_portfoio */
 .header_portfolio {
@@ -550,6 +611,7 @@ img {
 
 /* close_main */
 /* open_footer */
+
 /* open_modal_div */
 .modal_window {
   position: fixed;
@@ -662,6 +724,7 @@ img {
   border-radius: 4px;
   border: 1px solid var(--navyblue-modal);
   outline: transparent;
+  resize: none; /* Блокує розширення */
 }
 
 .Modul-comment {
@@ -675,3 +738,5 @@ img {
 .modul-policy {
   color: #404bbf;
 }
+
+/* close-modul-fon */
