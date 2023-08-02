@@ -624,6 +624,7 @@ img {
 
 .modul-label {
   display: inline-block;
+  color:var(--navyblue-modal);
 }
 .modul-input {
   width: 100%;
