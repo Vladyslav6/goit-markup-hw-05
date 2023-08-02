@@ -686,8 +686,13 @@ img {
 }
 
 .modul-label {
-  display: inline-block;
-  color: var(--navyblue-modal);
+  display: block;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+
+  color: var(--bot_color);
+  margin-bottom: 4px;
 }
 .modul-input {
   width: 100%;
