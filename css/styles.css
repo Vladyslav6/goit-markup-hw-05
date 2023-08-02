@@ -443,10 +443,9 @@ img {
 }
 .footer-form {
   display: flex;
-}
-.footer-div {
   position: relative;
 }
+
 .footer-svg {
   position: absolute;
   fill: #ffffff;
