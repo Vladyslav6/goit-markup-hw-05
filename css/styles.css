@@ -453,7 +453,8 @@ img {
   top: 50%;
   transform: translateY(-50%);
 }
-
+.footer-form {
+}
 .footer-input {
   width: 264px;
   height: 40px;
