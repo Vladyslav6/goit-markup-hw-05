@@ -441,9 +441,10 @@ img {
   color: var(--footerpar);
   letter-spacing: 0.02em;
 }
-
-.footer-div {
+.footer-form {
   display: flex;
+}
+.footer-div {
   position: relative;
 }
 .footer-svg {
@@ -453,8 +454,7 @@ img {
   top: 50%;
   transform: translateY(-50%);
 }
-.footer-form {
-}
+
 .footer-input {
   width: 264px;
   height: 40px;
