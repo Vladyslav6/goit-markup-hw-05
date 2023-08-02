@@ -444,6 +444,7 @@ img {
 .footer-form {
   display: flex;
   position: relative;
+  gap: 24px;
 }
 
 .footer-svg {
@@ -457,14 +458,17 @@ img {
 .footer-input {
   width: 264px;
   height: 40px;
-  margin-right: 24px;
+
   border-radius: 4px;
   border: 1px solid #ffffff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background-color: #2e2f42;
 }
+.footer-label {
+}
 
 .footer-input::placeholder {
+  padding-left: 16px;
   color: #ffffff;
 }
 
