@@ -682,6 +682,9 @@ img {
 }
 
 .modal-box {
+  margin-bottom: 8px;
+}
+.modal-box-two {
   margin-bottom: 16px;
 }
 
