@@ -756,9 +756,12 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--bot_color);
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
 }
 .foot-span {
-  display: inline-flex;
+  /* display: inline-flex; */
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -769,6 +772,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-right: 8px;
 }
 
 .modul-policy {
