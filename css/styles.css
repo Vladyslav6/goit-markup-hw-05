@@ -777,3 +777,8 @@ img {
 /* close-modul-fon */
 .modal-check {
 }
+.modal-check:checked + .mod-com span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
